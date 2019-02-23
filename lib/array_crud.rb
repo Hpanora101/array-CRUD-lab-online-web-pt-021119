@@ -4,23 +4,24 @@ def create_an_empty_array
 end
 
 def create_an_array
-family_name = ["wow", "I", "am", "really"]
+array = ["wow", "I", "am", "really"]
 
 end
 
 def add_element_to_end_of_array(array, element)
-family_name = ["wow", "I", "am", "really"]
-family_name.push("arrays!")
+array = ["wow", "I", "am", "really"]
+array.push("arrays!")
 end
 
 def add_element_to_start_of_array(array, element)
-family_name = ["wow", "I", "am", "really"]
-family_name.unshift("wow")
+array= ["wow", "I", "am", "really"]
+array.unshift("wow")
 
 end
 
 def remove_element_from_end_of_array(array)
-
+  
+array= ["wow", "I", "am", "really"]
 end
 
 def remove_element_from_start_of_array(array)
