@@ -4,18 +4,18 @@ def create_an_empty_array
 end
 
 def create_an_array
-family_name = ["Henry","Jesus","Jorge","Nancy"]
+family_name = ["wow", "I", "am", "really"]
 
 end
 
 def add_element_to_end_of_array(array, element)
-family_name = ["Henry","Jesus","Jorge","Nancy"]
+family_name = ["wow", "I", "am", "really"]
 family_name.push("arrays!")
 end
 
 def add_element_to_start_of_array(array, element)
-family_name = ["Henry","Jesus","Jorge","Nancy"]
-family_name.unshift("Henry")
+family_name = ["wow", "I", "am", "really"]
+family_name.unshift("wow")
 
 end
 
